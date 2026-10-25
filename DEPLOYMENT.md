@@ -37,8 +37,14 @@ Les données sont dans Netlify Blobs. Les prix sont recalculés côté serveur. 
 
 ## Vérifications
 
-`npm test` : 9 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet, ainsi que la connexion, les sessions administrateur et la conservation exacte des JPEG originaux. `npm run build` : bundle production.
+`npm test` : 12 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet, ainsi que la connexion, les sessions administrateur et la conservation exacte des JPEG originaux. `npm run build` : bundle production.
 Test navigateur local : collection, filtre, choix taille, panier et persistance, WhatsApp, message d'erreur si backend absent, mobile, écran de connexion admin.
 Les variables serveur et Netlify Blobs nécessitent une vérification sur le site Netlify déployé.
 
 `node scripts/admin-browser-check.mjs` : test du vrai gestionnaire de connexion (identifiants de test isolés), cookie HttpOnly, rechargement et déconnexion ; le stockage des commandes est simulé pour ce test local. Le serveur de prévisualisation doit tourner sur le port 4173.
+
+## Langue arabe
+
+La boutique et le dashboard proposent FR / العربية. La préférence est enregistrée sous `tazi-language` et applique `lang=ar` / `dir=rtl`. Produits, couleurs, filtres, panier, formulaire, messages et textes WhatsApp sont traduits ; les photos originales restent inchangées. Les valeurs des API (identifiants, tailles, statuts) ne sont pas traduites. Les numéros de téléphone acceptent les chiffres arabes et persans, normalisés côté serveur.
+
+`node scripts/arabic-browser-check.mjs` teste le parcours arabe, la persistance de la langue et du panier, le mobile, WhatsApp, une commande avec coordonnées arabes et les statuts du dashboard. L’authentification et le stockage sont simulés dans ce test de langue ; le vrai gestionnaire de connexion est testé séparément.

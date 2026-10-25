@@ -936,11 +936,12 @@ export const products = [
     "subtitle": "Reflets satinés & détails délicats"
   }
 ];
+export const normalizePhone=value=>value.replace(/[٠-٩]/g,d=>String(d.charCodeAt(0)-0x660)).replace(/[۰-۹]/g,d=>String(d.charCodeAt(0)-0x6f0)).replace(/[\s-]/g,'');
 export function validateOrder(body){
  if(!body || typeof body.name!=='string'||body.name.trim().length<2||body.name.length>100)throw Error('Indiquez votre nom complet.');
- if(typeof body.phone!=='string'||! /^(?:\+212|0)[5-7]\d{8}$/.test(body.phone.replace(/[\s-]/g,'')))throw Error('Indiquez un numéro marocain valide.');
+ if(typeof body.phone!=='string'||! /^(?:\+212|0)[5-7]\d{8}$/.test(normalizePhone(body.phone)))throw Error('Indiquez un numéro marocain valide.');
  for(const k of ['city','address'])if(typeof body[k]!=='string'||body[k].trim().length<3||body[k].length>300)throw Error('Complétez votre ville et votre adresse.');
  if(!Array.isArray(body.items)||body.items.length<1||body.items.length>100)throw Error('Panier invalide.');
  const items=body.items.map(i=>{const p=products.find(p=>p.id===i.id);if(!p||!['S','M','L','XL'].includes(i.size)||!Number.isInteger(i.qty)||i.qty<1||i.qty>5)throw Error('Article invalide.');return {id:p.id,name:p.name,price:p.price,size:i.size,qty:i.qty};});
- return {name:body.name.trim(),phone:body.phone.replace(/[\s-]/g,''),city:body.city.trim(),address:body.address.trim(),items,total:items.reduce((s,i)=>s+i.price*i.qty,0),status:'Nouvelle'};
+ return {name:body.name.trim(),phone:normalizePhone(body.phone),city:body.city.trim(),address:body.address.trim(),items,total:items.reduce((s,i)=>s+i.price*i.qty,0),status:'Nouvelle'};
 }
