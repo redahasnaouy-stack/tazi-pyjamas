@@ -1,0 +1,15 @@
+import { chromium } from '@playwright/test';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://localhost:5173');await page.locator('.product-card').first().waitFor();assert.equal(await page.locator('.product-card').count(),3);
+await page.screenshot({path:'/tmp/tazi-store-desktop.png',fullPage:true});
+await page.getByRole('button',{name:'Fleuri',exact:true}).click();assert.equal(await page.locator('.product-card').count(),1);
+await page.getByRole('button',{name:'Toute la collection'}).click();await page.locator('[data-product="lavande"]').first().click();await page.locator('#size').selectOption('M');await page.locator('#add').click();await page.locator('#bag').click();assert.match(await page.locator('.total').innerText(),/290 DH/);
+await page.getByRole('button',{name:'Augmenter'}).click();assert.match(await page.locator('.total').innerText(),/580 DH/);
+await page.evaluate(()=>{window.open=(url)=>{window.__whatsappURL=url;return null}});await page.locator('#whatsapp').click();assert.match(await page.evaluate(()=>window.__whatsappURL),/wa.me\/212663266817/);
+await page.locator('#checkout').click();await page.locator('[name=name]').fill('Test Client');await page.locator('[name=phone]').fill('0663266817');await page.locator('[name=city]').fill('Rabat');await page.locator('[name=address]').fill('Adresse test');await page.locator('[type=checkbox]').check();await page.locator('[type=submit]').click();await page.locator('.form-error').filter({hasText:'Netlify'}).waitFor();await page.keyboard.press('Escape');
+await page.reload();assert.equal(await page.locator('.cart-count').innerText(),'2');
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/tazi-store-mobile.png',fullPage:true});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+await page.locator('#menu-btn').click();assert.ok(await page.locator('nav').isVisible());
+await page.goto('http://localhost:5173/admin');await page.locator('#login').waitFor();assert.ok(await page.getByText('Connexion privée').isVisible());assert.equal(errors.length,0,errors.join('\n'));console.log('PASS: desktop, mobile, filters, product sizes, cart quantity/persistence, WhatsApp destination, unavailable-backend error, admin login and no JS errors.');await browser.close();
