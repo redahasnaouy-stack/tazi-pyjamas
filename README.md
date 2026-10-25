@@ -9,4 +9,4 @@ npm test
 npm run build
 ```
 
-Déploiement et réglages : [DEPLOYMENT.md](DEPLOYMENT.md). Trois premiers modèles de 250 à 320 DH ; les autres images du catalogue restent à intégrer après remplacement de leurs marques. Le backend se valide après déploiement Netlify.
+Déploiement et réglages : [DEPLOYMENT.md](DEPLOYMENT.md). Catalogue de 55 fiches regroupant les 83 photos fournies, avec galeries, filtres et affichage progressif. Les prix restent entre 200 et 350 DH. Les marques sont retirées des vêtements ; le logo Tazi est affiché séparément sur les visuels. Le backend se valide après déploiement Netlify.

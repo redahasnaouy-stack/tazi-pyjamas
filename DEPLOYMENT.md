@@ -19,8 +19,8 @@ Les requêtes admin vérifient les jetons auprès de Netlify Identity et le rôl
 
 ## Contenu et limites à valider
 
-- Première capsule : 3 modèles (Lavande 290 DH, Rose 320 DH, Sauge 250 DH). Les trois photos publiées sont sans marque sur les vêtements ; le logo Tazi Pyjamas est affiché séparément dans l’image ; les 83 originaux n'ont pas tous été intégrés. Les autres images du ZIP sont conservées hors des fichiers publics et nécessitent un traitement de marque avant publication.
-- Les images publiées ont été retouchées/générées à partir de 3 photos fournies. Les retouches demandées enlèvent les marques sur les vêtements et placent la marque Tazi hors du tissu. Vérifier les détails des images retouchées avec les articles réels avant la vente.
+- Catalogue : 55 fiches regroupant les 83 photos du ZIP. Les vues du même modèle sont réunies en galerie. `data/image-manifest.json` relie chaque photo source à son produit et à son fichier WebP. Aucune photo source ne manque et aucune n’est comptée deux fois. Les noms et prix ont été proposés dans la fourchette demandée de 200 à 350 DH ; ils sont à valider avec le propriétaire.
+- Les images publiées ont été retouchées/générées à partir des photos fournies. Les retouches demandées enlèvent les marques sur les vêtements et placent la marque Tazi hors du tissu. Vérifier les détails des images retouchées avec les articles réels avant la vente.
 - Logo fourni par le propriétaire : version nettoyée du monogramme VS présent sur le vêtement du personnage. Les lettres Tazi Pyjamas, les couleurs et la composition sont conservées. Le logo est affiché hors des vêtements des produits.
 - Tailles S à XL et disponibilité à confirmer avec le stock réel. Aucun stock physique synchronisé ni réservation automatique. Le dashboard gère les demandes et leurs statuts ; le catalogue se modifie dans `src/catalog.js`, pas depuis le dashboard pour cette version.
 - Paiement à la livraison. Frais et délais de livraison à confirmer au client. Aucun tarif de livraison inventé.
@@ -28,6 +28,6 @@ Les requêtes admin vérifient les jetons auprès de Netlify Identity et le rôl
 
 ## Vérifications
 
-`npm test` : validation des contacts, quantités, tailles, prix et recalcul des totaux. `npm run build` : bundle production.
+`npm test` : 7 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet. `npm run build` : bundle production.
 Test navigateur local : collection, filtre, choix taille, panier et persistance, WhatsApp, message d'erreur si backend absent, mobile, écran de connexion admin.
 Les services Identity et Blobs nécessitent la vérification sur le site Netlify déployé.
