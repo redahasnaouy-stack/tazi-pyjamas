@@ -10,12 +10,21 @@ Les fichiers à publier sont dans `dist/`. `netlify.toml` configure le build et 
 1. Dans Netlify : Add new project → Import an existing project → GitHub → `redahasnaouy-stack/tazi-pyjamas`.
 2. Branche `main`, commande `npm run build`, dossier `dist`, fonctions `netlify/functions`. Déployer.
 3. Le panier et les demandes via WhatsApp fonctionnent sans configuration supplémentaire : **+212663266817**, paiement à la livraison. L'envoi WhatsApp est volontaire : le client confirme dans WhatsApp.
-4. Pour enregistrer les demandes dans le dashboard, activer Netlify Identity (inscriptions sur invitation seulement), inviter le propriétaire et attribuer le rôle `admin` depuis les métadonnées d'application / rôles Identity. Ne jamais attribuer ce rôle depuis les métadonnées saisies par l'utilisateur.
-5. Initialiser le mot de passe depuis l'invitation Identity. Ajouter si nécessaire le domaine de production aux URL autorisées et modèles d'email Identity. La connexion email/mot de passe est à `/admin`.
-6. Vérifier Netlify Blobs sur ce site. Ajouter `ORDERS_ENABLED=true` dans les variables serveur Netlify et redéployer uniquement après validation des stocks, tailles, livraison, retours et traitement des données personnelles. La capture est désactivée par défaut, WhatsApp reste disponible.
-7. Envoyer une demande test sur le site déployé et vérifier qu'elle apparaît dans `/admin`. Modifier son statut, se déconnecter puis vérifier qu'un visiteur non authentifié reçoit une erreur 401 sur GET `/.netlify/functions/orders`.
+4. Dans **Project configuration → Environment variables**, ajouter ces variables pour le contexte Production, avec une portée **Functions** (ou toutes les portées si votre offre ne permet pas de choisir) :
 
-Les requêtes admin vérifient les jetons auprès de Netlify Identity et le rôle `admin`. Les données sont dans Netlify Blobs, pas dans le navigateur. Le total est recalculé côté serveur à partir du catalogue ; le prix transmis par un visiteur est ignoré. Aucune carte bancaire n'est collectée. Activer les protections anti-abus/rate limiting Netlify avant une ouverture publique importante. Le propriétaire doit définir ses conditions et sa durée de conservation des données, et supprimer les données de test via Netlify Blobs.
+| Variable | Valeur à saisir dans Netlify |
+| --- | --- |
+| `ADMIN_EMAIL` | Votre adresse email de connexion |
+| `ADMIN_PASSWORD` | Un mot de passe unique d’au moins 16 caractères |
+| `ADMIN_SESSION_SECRET` | Une valeur aléatoire indépendante d’au moins 32 caractères, générée par un gestionnaire de mots de passe |
+| `ORDERS_ENABLED` | `true` pour activer la réception des demandes, après validation des conditions de vente |
+
+5. Relancer le déploiement après enregistrement des variables, puis ouvrir `/admin` et utiliser `ADMIN_EMAIL` et `ADMIN_PASSWORD`. Aucun compte Identity ni invitation n’est nécessaire. Ne jamais utiliser de préfixe `VITE_` pour ces variables : elles doivent rester côté serveur. Ne pas mettre leurs valeurs dans Git, le chat ou le fichier `netlify.toml`.
+6. Vérifier Netlify Blobs sur ce site, envoyer une demande test et vérifier sa présence dans `/admin`. Modifier son statut puis se déconnecter. Un visiteur non connecté doit recevoir 401 sur GET `/.netlify/functions/orders`.
+
+Les identifiants sont vérifiés côté serveur. La session utilise un cookie signé **HttpOnly, Secure, SameSite=Strict**, valable 4 heures ; aucun jeton n’est stocké dans localStorage ou sessionStorage. Les requêtes de connexion, déconnexion et changement de statut vérifient l’origine. La fonction d’authentification déclare une limite Netlify de 10 requêtes par minute et par IP/domaine. Une modification du mot de passe ou du secret invalide les sessions existantes. La déconnexion efface le cookie du navigateur ; en cas de compromission, changer le mot de passe et redéployer pour invalider toutes les sessions.
+
+Les données sont dans Netlify Blobs. Les prix sont recalculés côté serveur. Les demandes WhatsApp ne sont pas ajoutées automatiquement au dashboard. Le propriétaire définit la durée de conservation et supprime les données de test via Netlify Blobs.
 
 ## Contenu et limites à valider
 
@@ -28,6 +37,8 @@ Les requêtes admin vérifient les jetons auprès de Netlify Identity et le rôl
 
 ## Vérifications
 
-`npm test` : 7 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet. `npm run build` : bundle production.
+`npm test` : 8 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet, ainsi que la connexion et les sessions administrateur. `npm run build` : bundle production.
 Test navigateur local : collection, filtre, choix taille, panier et persistance, WhatsApp, message d'erreur si backend absent, mobile, écran de connexion admin.
-Les services Identity et Blobs nécessitent la vérification sur le site Netlify déployé.
+Les variables serveur et Netlify Blobs nécessitent une vérification sur le site Netlify déployé.
+
+`node scripts/admin-browser-check.mjs` : test du vrai gestionnaire de connexion (identifiants de test isolés), cookie HttpOnly, rechargement et déconnexion ; le stockage des commandes est simulé pour ce test local. Le serveur de prévisualisation doit tourner sur le port 4173.

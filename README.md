@@ -1,6 +1,6 @@
 # Tazi Pyjamas
 
-Boutique de pyjamas en français, interface responsive rose, crème et bordeaux. Panier persistant, choix de taille, filtres, favoris, commandes WhatsApp au **0663266817**, paiement à la livraison. Dashboard privé `/admin` pour les demandes et leur suivi via Netlify Identity + Blobs.
+Boutique de pyjamas en français, interface responsive rose, crème et bordeaux. Panier persistant, choix de taille, filtres, favoris, commandes WhatsApp au **0663266817**, paiement à la livraison. Dashboard privé `/admin` pour les demandes et leur suivi via des identifiants configurés dans les variables serveur Netlify + Blobs.
 
 ```sh
 npm ci
