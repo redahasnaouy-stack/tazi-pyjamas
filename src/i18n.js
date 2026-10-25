@@ -17,6 +17,7 @@ export function translate(value,lang=language){
  const done=value=>leading+value+trailing;
  if(Object.hasOwn(arabic,key))return done(arabic[key]);
  let match;
+ if((match=key.match(/^Stock (S|M|L|XL)$/)))return done(`مخزون ${match[1]}`);
  if((match=key.match(/^(\d+) sur (\d+) pièces$/)))return done(`${match[1]} من أصل ${match[2]} قطعة`);
  if((match=key.match(/^(\d+) pièces · Une infinité de jolis moments$/)))return done(`${match[1]} قطعة · لحظات جميلة بلا حدود`);
  if((match=key.match(/^(.+) ajouté au panier$/)))return done(`تمت إضافة ${translate(match[1],lang)} إلى السلة`);

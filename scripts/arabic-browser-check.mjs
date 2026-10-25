@@ -1,6 +1,7 @@
 import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 import {validateOrder} from '../src/catalog.js';
+import {initialState} from '../netlify/lib/commerce.mjs';
 const base=process.env.TAZI_BASE_URL||'http://localhost:4173';
 const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
 try{
@@ -20,8 +21,9 @@ try{
  const order={id:'TZ-test-order',name:'Rose',phone:'0663266817',city:'Rabat',address:'Rue test',items:[{id:'lavande',name:'Rêve de Lavande',size:'M',qty:1,price:290}],total:290,status:'Nouvelle',createdAt:'2026-10-25T12:00:00Z'};
  // Authentication/storage are simulated here; the real secure-auth handler has its own integration test.
  await page.route('**/.netlify/functions/admin-auth',route=>route.fulfill({status:route.request().method()==='GET'?401:200,contentType:'application/json',body:'{"ok":true}'}));
- await page.route('**/.netlify/functions/orders',async route=>{if(route.request().method()==='PATCH'){updated=route.request().postDataJSON();order.status=updated.status;await route.fulfill({status:200,contentType:'application/json',body:'{"ok":true}'})}else await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify([order])})});
- await page.goto(base+'/admin');assert.equal(await page.locator('html').getAttribute('dir'),'rtl');await page.locator('[name=email]').fill('owner@example.test');await page.locator('[name=password]').fill('test-only-password');await page.locator('#login button').click();await page.locator('.orders-card').waitFor();assert.match(await page.locator('.orders-card').innerText(),/حلم اللافندر/);assert.equal(await page.locator('[data-no-translate]').filter({hasText:'Rose'}).last().innerText(),'Rose');
- await page.locator('[data-order]').selectOption('Confirmée');await page.waitForFunction(()=>document.querySelector('[data-order]')?.value==='Confirmée'&&!document.querySelector('[data-order]').disabled);assert.equal(updated.status,'Confirmée');assert.equal(await page.locator('[data-order] option:checked').innerText(),'مؤكد');assert.deepEqual(errors,[]);
+ const state=initialState([order]);
+ await page.route('**/.netlify/functions/shop*',async route=>{if(route.request().method()==='POST'){updated=route.request().postDataJSON().order;Object.assign(state.orders[0],updated,{revision:state.orders[0].revision+1});await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({state,result:state.orders[0]})})}else await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(state)})});
+ await page.goto(base+'/admin');assert.equal(await page.locator('html').getAttribute('dir'),'rtl');await page.locator('[name=email]').fill('owner@example.test');await page.locator('[name=password]').fill('test-only-password');await page.locator('#login button').click();await page.locator('.orders-card').waitFor();await page.locator('[data-open-order]').first().click();assert.match(await page.locator('.order-item').first().innerText(),/حلم اللافندر/);assert.equal(await page.locator('#order-edit [name=name]').inputValue(),'Rose');
+ await page.locator('#order-edit [name=status]').selectOption('Confirmée');await page.locator('#order-edit button').click();await page.locator('#order-edit').waitFor({state:'detached'});assert.equal(updated.status,'Confirmée');assert.ok(await page.getByText('مؤكد',{exact:true}).isVisible());assert.deepEqual(errors,[]);
  console.log('PASS: Arabic RTL store, complete visible copy, Arabic product search, language persistence, preserved cart, mobile layout, Arabic WhatsApp and checkout, original API IDs and admin status values.');
 }finally{await browser.close()}
