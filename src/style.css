@@ -8,3 +8,4 @@
 /* Actual supplied brand artwork, separate from the unbranded garments. */
 .brand-art{display:block;width:130px;height:80px;object-fit:contain;border-radius:3px}.watermark-logo{width:88px;height:auto;left:12px;bottom:12px;opacity:.95;border-radius:3px}.photo{background-size:cover;background-position:center 35%}.panel-0{background-image:url("/images/lavande.png")}.panel-1{background-image:url("/images/rose.png")}.panel-2{background-image:url("/images/sauge.png")}.hero-photo{background-position:center 30%}.story-image .photo{background-position:center 35%}@media(max-width:600px){.brand-art{width:100px;height:65px}.watermark-logo{width:75px}}
 .watermark-logo{top:12px;bottom:auto}
+.product-image .tag{top:auto;bottom:58px;left:16px}.hero-photo .watermark-logo{top:100px;left:18px}
