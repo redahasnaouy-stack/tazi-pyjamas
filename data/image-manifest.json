@@ -2,499 +2,748 @@
   {
     "index": 0,
     "original": "668647653_122191594544512998_4048900066107679828_n.jpg",
-    "output": "/images/catalogue/00.webp",
-    "product": "lavande"
+    "output": "/images/catalogue/00.jpg",
+    "product": "lavande",
+    "archive": "pyjamas.zip",
+    "sha256": "7b7a922a0f96919f967034fb8b88ec8c60ba3ef981139f9fc2c1be828408288e",
+    "processing": "original-unchanged"
   },
   {
     "index": 1,
     "original": "668684567_122191594652512998_8435349202660039847_n.jpg",
-    "output": "/images/catalogue/01.webp",
-    "product": "fleurs-ivoire"
+    "output": "/images/catalogue/01.jpg",
+    "product": "fleurs-ivoire",
+    "archive": "pyjamas.zip",
+    "sha256": "9dfb640939fd6bf46e04f9b9e412de9700c49835015e8e3c936b223cfc790202",
+    "processing": "original-unchanged"
   },
   {
     "index": 2,
     "original": "668716424_122191594754512998_6394671962370161591_n.jpg",
-    "output": "/images/catalogue/02.webp",
-    "product": "fleurs-terracotta"
+    "output": "/images/catalogue/02.jpg",
+    "product": "fleurs-terracotta",
+    "archive": "pyjamas.zip",
+    "sha256": "3621aa46ea9afbd97e73bede9915fddefa3283df359ab1b893c019cfac078307",
+    "processing": "original-unchanged"
   },
   {
     "index": 3,
     "original": "668765869_122191594532512998_60027118129471549_n.jpg",
-    "output": "/images/catalogue/03.webp",
-    "product": "sable"
+    "output": "/images/catalogue/03.jpg",
+    "product": "sable",
+    "archive": "pyjamas.zip",
+    "sha256": "dbfd9f72867594babd9973be0ac3c61f93c2e29993e72999e76ec586f2d6419b",
+    "processing": "original-unchanged"
   },
   {
     "index": 4,
     "original": "668767878_122191594730512998_5894382187853941619_n.jpg",
-    "output": "/images/catalogue/04.webp",
-    "product": "rose"
+    "output": "/images/catalogue/04.jpg",
+    "product": "rose",
+    "archive": "pyjamas.zip",
+    "sha256": "f9e4a7b1c870bcbbdfa72f26290e885bafefabe84946917e0890f8ccdcd6d64a",
+    "processing": "original-unchanged"
   },
   {
     "index": 5,
     "original": "668771497_122191594568512998_9037740150781466543_n.jpg",
-    "output": "/images/catalogue/05.webp",
-    "product": "sauge"
+    "output": "/images/catalogue/05.jpg",
+    "product": "sauge",
+    "archive": "pyjamas.zip",
+    "sha256": "3a2b7e5a4ebe8670ddabe401c4f6233690ebed49e2f363572de46a6f36d74c91",
+    "processing": "original-unchanged"
   },
   {
     "index": 6,
     "original": "668788771_122191594766512998_9147187778697703384_n.jpg",
-    "output": "/images/catalogue/06.webp",
-    "product": "noir-minuit"
+    "output": "/images/catalogue/06.jpg",
+    "product": "noir-minuit",
+    "archive": "pyjamas.zip",
+    "sha256": "98eefcfb21043263596b8d358a440d9cc030518a0fdf485621b870ebf844c057",
+    "processing": "original-unchanged"
   },
   {
     "index": 7,
     "original": "668836535_122191594454512998_1287933010375705105_n.jpg",
-    "output": "/images/catalogue/07.webp",
-    "product": "jardin-rose"
+    "output": "/images/catalogue/07.jpg",
+    "product": "jardin-rose",
+    "archive": "pyjamas.zip",
+    "sha256": "253962880332ec9e7e07581883fac6a8e404d32975e11bd9877f8504b1ed92ad",
+    "processing": "original-unchanged"
   },
   {
     "index": 8,
     "original": "668885445_122191594700512998_1431656783668709015_n.jpg",
-    "output": "/images/catalogue/08.webp",
-    "product": "vanille"
+    "output": "/images/catalogue/08.jpg",
+    "product": "vanille",
+    "archive": "pyjamas.zip",
+    "sha256": "e4ec4ad2ae7e468c45a9ce4017366f151191baf7cae682f4275278cad88a856b",
+    "processing": "original-unchanged"
   },
   {
     "index": 9,
     "original": "668973816_122191594484512998_6813852128391355159_n.jpg",
-    "output": "/images/catalogue/09.webp",
-    "product": "emeraude"
+    "output": "/images/catalogue/09.jpg",
+    "product": "emeraude",
+    "archive": "pyjamas.zip",
+    "sha256": "6b5c566eb1b375a2241a56bc727dfe02ace0bcda7324775aff35517438fcf81a",
+    "processing": "original-unchanged"
   },
   {
     "index": 10,
     "original": "668988102_122191594442512998_1065823988298663644_n.jpg",
-    "output": "/images/catalogue/10.webp",
-    "product": "fleurs-terracotta"
+    "output": "/images/catalogue/10.jpg",
+    "product": "fleurs-terracotta",
+    "archive": "pyjamas.zip",
+    "sha256": "c9e386ae0a6cc8a48220fa86d915abea535306bf16e14418f006620ba9eaa310",
+    "processing": "original-unchanged"
   },
   {
     "index": 11,
     "original": "668988882_122191594826512998_3709840090827734262_n.jpg",
-    "output": "/images/catalogue/11.webp",
-    "product": "rose"
+    "output": "/images/catalogue/11.jpg",
+    "product": "rose",
+    "archive": "pyjamas.zip",
+    "sha256": "3fcc6ae96c9c8df775ee9868cd75cec33709f05f45ee169348b691fc304a11a6",
+    "processing": "original-unchanged"
   },
   {
     "index": 12,
     "original": "669211821_122191594688512998_5219697021835600459_n.jpg",
-    "output": "/images/catalogue/12.webp",
-    "product": "menthe"
+    "output": "/images/catalogue/12.jpg",
+    "product": "menthe",
+    "archive": "pyjamas.zip",
+    "sha256": "905fcd9214e110900729db6cd3b25687d3bf5827073b384a63dee1bb7bab3223",
+    "processing": "original-unchanged"
   },
   {
     "index": 13,
     "original": "669399016_122191594808512998_8168739831830281431_n.jpg",
-    "output": "/images/catalogue/13.webp",
-    "product": "emeraude"
+    "output": "/images/catalogue/13.jpg",
+    "product": "emeraude",
+    "archive": "pyjamas.zip",
+    "sha256": "87f9a11dc10c22282dfd117d9f9e0d76f0166de9dd6e0469436ce6144107e6ba",
+    "processing": "original-unchanged"
   },
   {
     "index": 14,
     "original": "669633406_122191594580512998_5188225086778126847_n.jpg",
-    "output": "/images/catalogue/14.webp",
-    "product": "lavande"
+    "output": "/images/catalogue/14.jpg",
+    "product": "lavande",
+    "archive": "pyjamas.zip",
+    "sha256": "a195bbb55472d22c13dd9037f8e3a05d6e9794fc96ffadea6a1bb7c37d0ba297",
+    "processing": "original-unchanged"
   },
   {
     "index": 15,
     "original": "669701509_122191594496512998_6375557350962957897_n.jpg",
-    "output": "/images/catalogue/15.webp",
-    "product": "bleu-royal"
+    "output": "/images/catalogue/15.jpg",
+    "product": "bleu-royal",
+    "archive": "pyjamas.zip",
+    "sha256": "0e94c580c7b4a50457abccdaf67bdaf142b81f7f13373e4bd5c8c2c87fc79b99",
+    "processing": "original-unchanged"
   },
   {
     "index": 16,
     "original": "669797332_122191594790512998_1058557128223979655_n.jpg",
-    "output": "/images/catalogue/16.webp",
-    "product": "mauve"
+    "output": "/images/catalogue/16.jpg",
+    "product": "mauve",
+    "archive": "pyjamas.zip",
+    "sha256": "18f6e06cfad62b978aa9e020a8fe741a17f0c4f93268312eb4642af748615ed0",
+    "processing": "original-unchanged"
   },
   {
     "index": 17,
-    "original": "852473136_122211213698512998_8212346522761141801_n (1).jpg",
-    "output": "/images/catalogue/17.webp",
-    "product": "framboise"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.26 (2).jpeg",
+    "output": "/images/catalogue/17.jpg",
+    "product": "framboise",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "a0cfd5b0c2d9e3bf8981dc3870c5d0745283216734b833bf7f9d4faa546bd37f",
+    "processing": "original-unchanged"
   },
   {
     "index": 18,
-    "original": "853482972_122211213092512998_1107543487410318381_n (2).jpg",
-    "output": "/images/catalogue/18.webp",
-    "product": "champagne-rose"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.20.jpeg",
+    "output": "/images/catalogue/18.jpg",
+    "product": "champagne-rose",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "42855562ab375873724aa4db1950f5a25bde5e3f1358c44a603f3f35283af034",
+    "processing": "original-unchanged"
   },
   {
     "index": 19,
     "original": "853714159_122211213146512998_6559622400187540243_n.jpg",
-    "output": "/images/catalogue/19.webp",
-    "product": "peignoir-leopard"
+    "output": "/images/catalogue/19.jpg",
+    "product": "peignoir-leopard",
+    "archive": "pyjamas.zip",
+    "sha256": "b45648243c1fe04dabeb20cbb2076543ca4d1e2e628c91259ccaa8c5838c4c6a",
+    "processing": "original-unchanged"
   },
   {
     "index": 20,
-    "original": "853714188_122211213722512998_6210097755767083453_n (1).jpg",
-    "output": "/images/catalogue/20.webp",
-    "product": "rayures-rose"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.29 (1).jpeg",
+    "output": "/images/catalogue/20.jpg",
+    "product": "rayures-rose",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "5bff657b5766078831017dc5f1ae8ac01def622f84727051586dc9f6168d5966",
+    "processing": "original-unchanged"
   },
   {
     "index": 21,
     "original": "853758056_122211213416512998_8352371190168308492_n.jpg",
-    "output": "/images/catalogue/21.webp",
-    "product": "rayures-rose"
+    "output": "/images/catalogue/21.jpg",
+    "product": "rayures-rose",
+    "archive": "pyjamas.zip",
+    "sha256": "c983f3e9646c6fe6a2ed58781d4e3acf4987afbaf2e9c1670596b59946f0a72a",
+    "processing": "original-unchanged"
   },
   {
     "index": 22,
-    "original": "853879102_122211213800512998_5531053247485111559_n (1).jpg",
-    "output": "/images/catalogue/22.webp",
-    "product": "vert-amande"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.28 (4).jpeg",
+    "output": "/images/catalogue/22.jpg",
+    "product": "vert-amande",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "ed46e08a6e3c9e980203567635b658f41714ab8b10e5d50f1af13656cce8d37e",
+    "processing": "original-unchanged"
   },
   {
     "index": 23,
-    "original": "853879114_122211212438512998_3633862390367394012_n.jpg",
-    "output": "/images/catalogue/23.webp",
-    "product": "satin-noir"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.29 (2).jpeg",
+    "output": "/images/catalogue/23.jpg",
+    "product": "satin-noir",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "63dba7d8a86ee0e849adc79418e9fc4edaed5efa504a31fb2a7d8a0284c05e26",
+    "processing": "original-unchanged"
   },
   {
     "index": 24,
-    "original": "853935416_122211213662512998_6224873147582709393_n (1).jpg",
-    "output": "/images/catalogue/24.webp",
-    "product": "satin-ivoire"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.24 (1).jpeg",
+    "output": "/images/catalogue/24.jpg",
+    "product": "satin-ivoire",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "4135f4f1fcb9ef7ae9db8dab5cdfc2feb4bfd0e21a11a230228d27207fef35f5",
+    "processing": "original-unchanged"
   },
   {
     "index": 25,
     "original": "854043250_122211213776512998_4748069412175600990_n.jpg",
-    "output": "/images/catalogue/25.webp",
-    "product": "ivoire-classique"
+    "output": "/images/catalogue/25.jpg",
+    "product": "ivoire-classique",
+    "archive": "pyjamas.zip",
+    "sha256": "0aa6598b7e5b63b3b67ed85f9e37fe0f9658dab1e9f3bb5619a28a95549611c2",
+    "processing": "original-unchanged"
   },
   {
     "index": 26,
     "original": "854127791_122211213752512998_6799918328062903742_n (1).jpg",
-    "output": "/images/catalogue/26.webp",
-    "product": "fleurs-bonbon"
+    "output": "/images/catalogue/26.jpg",
+    "product": "fleurs-bonbon",
+    "archive": "pyjamas.zip",
+    "sha256": "0403dcc74bd0b325f67299edd80488b2012ed8312d3f8598b5d28a0859860a33",
+    "processing": "original-unchanged"
   },
   {
     "index": 27,
-    "original": "854188217_122211213188512998_1953191973382982698_n.jpg",
-    "output": "/images/catalogue/27.webp",
-    "product": "bordeaux"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.25 (1).jpeg",
+    "output": "/images/catalogue/27.jpg",
+    "product": "bordeaux",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "faa0e71dccfb799a2a696f58036826d77133e97dd4784ee453abaa5698f629f5",
+    "processing": "original-unchanged"
   },
   {
     "index": 28,
-    "original": "854188278_122211212996512998_7249378009721645654_n (1).jpg",
-    "output": "/images/catalogue/28.webp",
-    "product": "taupe"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.26 (3).jpeg",
+    "output": "/images/catalogue/28.jpg",
+    "product": "taupe",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "fedaad0b3284ad73d23efcec877798791b4a62ca1ea3f4801b38b3c29afd94d5",
+    "processing": "original-unchanged"
   },
   {
     "index": 29,
     "original": "854236717_122211213254512998_6068278898142197145_n (2).jpg",
-    "output": "/images/catalogue/29.webp",
-    "product": "satin-noir"
+    "output": "/images/catalogue/29.jpg",
+    "product": "satin-noir",
+    "archive": "pyjamas.zip",
+    "sha256": "1ce497089bc5428462681d0f898ef08b709dc9a049971a73b8c6bf9e01ea32f9",
+    "processing": "original-unchanged"
   },
   {
     "index": 30,
     "original": "854290405_122211213590512998_4586050125173387761_n.jpg",
-    "output": "/images/catalogue/30.webp",
-    "product": "bleu-ciel"
+    "output": "/images/catalogue/30.jpg",
+    "product": "bleu-ciel",
+    "archive": "pyjamas.zip",
+    "sha256": "200a4049611550472884205d3e9969b3da059660e5f96d32885efdb223a32a1b",
+    "processing": "original-unchanged"
   },
   {
     "index": 31,
     "original": "854290412_122211213374512998_1133536628011945148_n (1).jpg",
-    "output": "/images/catalogue/31.webp",
-    "product": "satin-ivoire"
+    "output": "/images/catalogue/31.jpg",
+    "product": "satin-ivoire",
+    "archive": "pyjamas.zip",
+    "sha256": "e401368dc50059b78321b7019fcc248ac9a2cb4865253433942e01988b0e04d1",
+    "processing": "original-unchanged"
   },
   {
     "index": 32,
     "original": "854338667_122211213788512998_8791197610826352444_n.jpg",
-    "output": "/images/catalogue/32.webp",
-    "product": "bleu-petrole"
+    "output": "/images/catalogue/32.jpg",
+    "product": "bleu-petrole",
+    "archive": "pyjamas.zip",
+    "sha256": "e0a858b11eb12b2e21814384c4383ce1088e0fff5131428bd4692a1a213a6df9",
+    "processing": "original-unchanged"
   },
   {
     "index": 33,
-    "original": "854338701_122211213506512998_5194666463711013688_n (1).jpg",
-    "output": "/images/catalogue/33.webp",
-    "product": "tropical"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.28 (1).jpeg",
+    "output": "/images/catalogue/33.jpg",
+    "product": "tropical",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "50fa7c5ff4cd596cc5dae0ff7e2d3ac38a4504e5dc2e42670dd8bda0444d5ed3",
+    "processing": "original-unchanged"
   },
   {
     "index": 34,
     "original": "854414132_122211213710512998_5930698713787092800_n.jpg",
-    "output": "/images/catalogue/34.webp",
-    "product": "chocolat"
+    "output": "/images/catalogue/34.jpg",
+    "product": "chocolat",
+    "archive": "pyjamas.zip",
+    "sha256": "ef2c4aa54bf5f5f67fd2108ed7d2ea021a291361295a6ecf7b20a5e82873df9c",
+    "processing": "original-unchanged"
   },
   {
     "index": 35,
     "original": "854414282_122211212852512998_7397766493124629460_n (1).jpg",
-    "output": "/images/catalogue/35.webp",
-    "product": "blanc-pur"
+    "output": "/images/catalogue/35.jpg",
+    "product": "blanc-pur",
+    "archive": "pyjamas.zip",
+    "sha256": "545abe94c1df969c9a081323f748942c3f93816092d0bb1b2a615302479fb3aa",
+    "processing": "original-unchanged"
   },
   {
     "index": 36,
-    "original": "854414295_122211212810512998_1090894974663592110_n (2).jpg",
-    "output": "/images/catalogue/36.webp",
-    "product": "peignoir-leopard"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.27 (1).jpeg",
+    "output": "/images/catalogue/36.jpg",
+    "product": "peignoir-leopard",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "f33226012489b7d263df89443461056469bc122c241241920ad70ac4fe321d6d",
+    "processing": "original-unchanged"
   },
   {
     "index": 37,
-    "original": "854414295_122211213344512998_7150796450427820620_n.jpg",
-    "output": "/images/catalogue/37.webp",
-    "product": "rouge"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.28 (2).jpeg",
+    "output": "/images/catalogue/37.jpg",
+    "product": "rouge",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "5ba58aed2ab0fe56608c4668ed5af1be478868a45d0fcbada0f4fe17aaa8b34c",
+    "processing": "original-unchanged"
   },
   {
     "index": 38,
-    "original": "854414307_122211213824512998_8154914750153910460_n (1).jpg",
-    "output": "/images/catalogue/38.webp",
-    "product": "chocolat"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.29.jpeg",
+    "output": "/images/catalogue/38.jpg",
+    "product": "chocolat",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "bb518f4b7ae1cf48a8b5575737ff11e029a64a4f69c2575e889d42ca79197f6f",
+    "processing": "original-unchanged"
   },
   {
     "index": 39,
     "original": "854533374_122211213812512998_125222583238912035_n.jpg",
-    "output": "/images/catalogue/39.webp",
-    "product": "cerise"
+    "output": "/images/catalogue/39.jpg",
+    "product": "cerise",
+    "archive": "pyjamas.zip",
+    "sha256": "5f36879403a944ed9d517c9ae241ed302aed9d4e055a8482a195ff84e9a53630",
+    "processing": "original-unchanged"
   },
   {
     "index": 40,
     "original": "854533405_122211213872512998_544125148022397824_n (1).jpg",
-    "output": "/images/catalogue/40.webp",
-    "product": "prune"
+    "output": "/images/catalogue/40.jpg",
+    "product": "prune",
+    "archive": "pyjamas.zip",
+    "sha256": "dc361554884fa542372bc378ef184f922b6fa1cd1986e9b897ba0f39287c98a0",
+    "processing": "original-unchanged"
   },
   {
     "index": 41,
     "original": "854627477_122211212738512998_590447600415347119_n.jpg",
-    "output": "/images/catalogue/41.webp",
-    "product": "bleu-petrole"
+    "output": "/images/catalogue/41.jpg",
+    "product": "bleu-petrole",
+    "archive": "pyjamas.zip",
+    "sha256": "4bb941953f011730d8a22a1c421281228eb3dbf5d357d21bf738c60009c2774a",
+    "processing": "original-unchanged"
   },
   {
     "index": 42,
-    "original": "854627513_122211213638512998_4389451065872595127_n (1).jpg",
-    "output": "/images/catalogue/42.webp",
-    "product": "vert-satin"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.25 (4).jpeg",
+    "output": "/images/catalogue/42.jpg",
+    "product": "vert-satin",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "ddef748cc68d41d522112167bf68057a3f7004dfd9de6652ec29b514b679ae86",
+    "processing": "original-unchanged"
   },
   {
     "index": 43,
-    "original": "854627515_122211212840512998_3485775901026888714_n.jpg",
-    "output": "/images/catalogue/43.webp",
-    "product": "satin-noir"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.27.jpeg",
+    "output": "/images/catalogue/43.jpg",
+    "product": "satin-noir",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "b007244ca1d5bcce4b14a7f5811b3b969e9cb57319da58db036023a9ef4fc685",
+    "processing": "original-unchanged"
   },
   {
     "index": 44,
     "original": "854670228_122211213602512998_7475481067662059539_n (1).jpg",
-    "output": "/images/catalogue/44.webp",
-    "product": "gris-perle"
+    "output": "/images/catalogue/44.jpg",
+    "product": "gris-perle",
+    "archive": "pyjamas.zip",
+    "sha256": "f861716deeda2be9df86ed277f6f02c76341bb582eb00c995aafd48bae9deac3",
+    "processing": "original-unchanged"
   },
   {
     "index": 45,
     "original": "854670230_122211212762512998_3542099202809517670_n.jpg",
-    "output": "/images/catalogue/45.webp",
-    "product": "chocolat"
+    "output": "/images/catalogue/45.jpg",
+    "product": "chocolat",
+    "archive": "pyjamas.zip",
+    "sha256": "68ee251907d1a6ec502e5c2e23830123a01a415fb2b6a9139f5e9fd0a35fdd18",
+    "processing": "original-unchanged"
   },
   {
     "index": 46,
-    "original": "854670250_122211213560512998_6485272580324973684_n (1).jpg",
-    "output": "/images/catalogue/46.webp",
-    "product": "bleu-ciel"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.24 (2).jpeg",
+    "output": "/images/catalogue/46.jpg",
+    "product": "bleu-ciel",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "37cd5dea5114c6737c5f8100c2af2df2d354278bae6bede81fda9b510977ec43",
+    "processing": "original-unchanged"
   },
   {
     "index": 47,
-    "original": "854670310_122211212888512998_4555642505976019424_n.jpg",
-    "output": "/images/catalogue/47.webp",
-    "product": "nacre"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.25 (2).jpeg",
+    "output": "/images/catalogue/47.jpg",
+    "product": "nacre",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "6873fe8f714d9d1f2dceb4ad90c85ee290d65fb5f870a669ad2d61a37ca4f69e",
+    "processing": "original-unchanged"
   },
   {
     "index": 48,
     "original": "854670341_122211213314512998_6396379191963255626_n (1).jpg",
-    "output": "/images/catalogue/48.webp",
-    "product": "prune"
+    "output": "/images/catalogue/48.jpg",
+    "product": "prune",
+    "archive": "pyjamas.zip",
+    "sha256": "4f7fe9471e2461c92dcd7b3414a50fd85312ca4b322d452f275f228457c3ff7e",
+    "processing": "original-unchanged"
   },
   {
     "index": 49,
     "original": "854780504_122211212420512998_5199824145576703150_n.jpg",
-    "output": "/images/catalogue/49.webp",
-    "product": "ensemble-ivoire"
+    "output": "/images/catalogue/49.jpg",
+    "product": "ensemble-ivoire",
+    "archive": "pyjamas.zip",
+    "sha256": "3d587efe6fac8b6eeffc10f97cafa4f1dbc2ee4dedc8368e7bb9a9a837ba52f8",
+    "processing": "original-unchanged"
   },
   {
     "index": 50,
-    "original": "854780536_122211213530512998_7634116359678328421_n (1).jpg",
-    "output": "/images/catalogue/50.webp",
-    "product": "bleu-petrole"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.26 (1).jpeg",
+    "output": "/images/catalogue/50.jpg",
+    "product": "bleu-petrole",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "b95075d6bfae33e41fcad7d34d95ff8a1dd44fa92fc88d2c8c7e78367b01a2ea",
+    "processing": "original-unchanged"
   },
   {
     "index": 51,
-    "original": "854844641_122211213686512998_1032385135872912460_n (2).jpg",
-    "output": "/images/catalogue/51.webp",
-    "product": "creme"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.30 (1).jpeg",
+    "output": "/images/catalogue/51.jpg",
+    "product": "creme",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "8a927e7ad5a46a792b7fe80abd6c9937c4ff37c3065419037ae265d52f9e476f",
+    "processing": "original-unchanged"
   },
   {
     "index": 52,
-    "original": "854880355_122211213740512998_1276257360913742955_n.jpg",
-    "output": "/images/catalogue/52.webp",
-    "product": "ensemble-noir"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.30 (2).jpeg",
+    "output": "/images/catalogue/52.jpg",
+    "product": "ensemble-noir",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "fc394a8b530fdd02674eeb6d88517d3ee71510cb6c6c8784a582426f3df84eb9",
+    "processing": "original-unchanged"
   },
   {
     "index": 53,
     "original": "854930352_122211213038512998_7110356735830995254_n (1).jpg",
-    "output": "/images/catalogue/53.webp",
-    "product": "rouge"
+    "output": "/images/catalogue/53.jpg",
+    "product": "rouge",
+    "archive": "pyjamas.zip",
+    "sha256": "2b06a88fc6d857894e50eb62b38df42a61ff66a36bb518a2fbad92a31965d916",
+    "processing": "original-unchanged"
   },
   {
     "index": 54,
-    "original": "854930362_122211212462512998_4474137584733928261_n.jpg",
-    "output": "/images/catalogue/54.webp",
-    "product": "petits-coeurs"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.27 (3).jpeg",
+    "output": "/images/catalogue/54.jpg",
+    "product": "petits-coeurs",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "50c859f81ff01aa6d772180d7de765bae5ddd0cef14c312a409013a8abac317f",
+    "processing": "original-unchanged"
   },
   {
     "index": 55,
     "original": "855062479_122211212450512998_7820210913024732328_n.jpg",
-    "output": "/images/catalogue/55.webp",
-    "product": "bleu-marine"
+    "output": "/images/catalogue/55.jpg",
+    "product": "bleu-marine",
+    "archive": "pyjamas.zip",
+    "sha256": "bb44bb3ca0c772549fe2459896a6f4d2097e2c82a45ab4ada9c6fb004437aa0f",
+    "processing": "original-unchanged"
   },
   {
     "index": 56,
     "original": "855062588_122211213884512998_877854213945758680_n (1).jpg",
-    "output": "/images/catalogue/56.webp",
-    "product": "olive"
+    "output": "/images/catalogue/56.jpg",
+    "product": "olive",
+    "archive": "pyjamas.zip",
+    "sha256": "45f01c272f1aa4fe498360173398e3d724785080bffc64e0fc134e120e1eb0f6",
+    "processing": "original-unchanged"
   },
   {
     "index": 57,
     "original": "855062703_122211213494512998_1691297593373410216_n.jpg",
-    "output": "/images/catalogue/57.webp",
-    "product": "grege"
+    "output": "/images/catalogue/57.jpg",
+    "product": "grege",
+    "archive": "pyjamas.zip",
+    "sha256": "84e873011a495adf9775565651f9755e1176e7f0864d91b0b94708ff3485ac2b",
+    "processing": "original-unchanged"
   },
   {
     "index": 58,
     "original": "855164045_122211212780512998_1551984220198684537_n (1).jpg",
-    "output": "/images/catalogue/58.webp",
-    "product": "coeurs-doux"
+    "output": "/images/catalogue/58.jpg",
+    "product": "coeurs-doux",
+    "archive": "pyjamas.zip",
+    "sha256": "98d3dd3cec224a6f2bcf806623cd6b4adb61337b5e455c3cfb07b9ef5deb5638",
+    "processing": "original-unchanged"
   },
   {
     "index": 59,
-    "original": "855164098_122211212972512998_7345532841106480079_n.jpg",
-    "output": "/images/catalogue/59.webp",
-    "product": "leopard"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.27 (4).jpeg",
+    "output": "/images/catalogue/59.jpg",
+    "product": "leopard",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "0d29f0c7c848db399df52e91838bb9c814429fd6aa7e49a4adaaec13fa576140",
+    "processing": "original-unchanged"
   },
   {
     "index": 60,
     "original": "855217561_122211213860512998_1381116911846031269_n (1).jpg",
-    "output": "/images/catalogue/60.webp",
-    "product": "jaune"
+    "output": "/images/catalogue/60.jpg",
+    "product": "jaune",
+    "archive": "pyjamas.zip",
+    "sha256": "ce9925df09380b821d5104d34931798242e767b42b6ee0069c62d74f985e20aa",
+    "processing": "original-unchanged"
   },
   {
     "index": 61,
-    "original": "855217566_122211213440512998_7600979228049488802_n (2).jpg",
-    "output": "/images/catalogue/61.webp",
-    "product": "ensemble-blanc"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.30 (3).jpeg",
+    "output": "/images/catalogue/61.jpg",
+    "product": "ensemble-blanc",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "640fa52693717012a280531cb59184c2d9de75b290baeaf9cc9e8cc75e4d439f",
+    "processing": "original-unchanged"
   },
   {
     "index": 62,
     "original": "855217607_122211213848512998_5198718753901679936_n.jpg",
-    "output": "/images/catalogue/62.webp",
-    "product": "leopard"
+    "output": "/images/catalogue/62.jpg",
+    "product": "leopard",
+    "archive": "pyjamas.zip",
+    "sha256": "b6e408ecfbd3ed5b1b87fdca274649c1faa98aa264c31f1582af5511b3c002e8",
+    "processing": "original-unchanged"
   },
   {
     "index": 63,
-    "original": "855412436_122211213158512998_649354809434141915_n (1).jpg",
-    "output": "/images/catalogue/63.webp",
-    "product": "nacre"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.30.jpeg",
+    "output": "/images/catalogue/63.jpg",
+    "product": "nacre",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "9cc705305ad4c2fa8acc1828b9a8ea17fade0c464f895f3f90153c51f4ffdcdc",
+    "processing": "original-unchanged"
   },
   {
     "index": 64,
-    "original": "855412437_122211213218512998_9121696832573291287_n.jpg",
-    "output": "/images/catalogue/64.webp",
-    "product": "rose-poudre"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.28.jpeg",
+    "output": "/images/catalogue/64.jpg",
+    "product": "rose-poudre",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "2644c6018d02434268e1e055e6d6583b0aba6c36cb1b41c9844c2738e3b78052",
+    "processing": "original-unchanged"
   },
   {
     "index": 65,
     "original": "855500312_122211213074512998_3614358062599862133_n (1).jpg",
-    "output": "/images/catalogue/65.webp",
-    "product": "rose-poudre"
+    "output": "/images/catalogue/65.jpg",
+    "product": "rose-poudre",
+    "archive": "pyjamas.zip",
+    "sha256": "0b26001fdc52c62f58135d6a5bbf3e6ff4a71b2eb234a5356840906e78ec995e",
+    "processing": "original-unchanged"
   },
   {
     "index": 66,
     "original": "855500364_122211213650512998_9031194620983182846_n.jpg",
-    "output": "/images/catalogue/66.webp",
-    "product": "fleurs-rose"
+    "output": "/images/catalogue/66.jpg",
+    "product": "fleurs-rose",
+    "archive": "pyjamas.zip",
+    "sha256": "30b8f91681828bbf6bb06f567c57af99ebbe3d9359b26a26d7eb271f994156f8",
+    "processing": "original-unchanged"
   },
   {
     "index": 67,
     "original": "855645615_122211213764512998_4907167423819334520_n (1).jpg",
-    "output": "/images/catalogue/67.webp",
-    "product": "taupe"
+    "output": "/images/catalogue/67.jpg",
+    "product": "taupe",
+    "archive": "pyjamas.zip",
+    "sha256": "869558c0454a6370bc3f461c766dbb16c80a5b1b68cc2dd45bd674748039ef40",
+    "processing": "original-unchanged"
   },
   {
     "index": 68,
     "original": "855693521_122211213326512998_3171429679450012987_n.jpg",
-    "output": "/images/catalogue/68.webp",
-    "product": "lilas"
+    "output": "/images/catalogue/68.jpg",
+    "product": "lilas",
+    "archive": "pyjamas.zip",
+    "sha256": "36d5bdc449d5bdee90ac885e09b6fb293aaa684088529f224acb67396bd003fd",
+    "processing": "original-unchanged"
   },
   {
     "index": 69,
     "original": "855693541_122211213116512998_3443216985258377177_n (1).jpg",
-    "output": "/images/catalogue/69.webp",
-    "product": "satin-ivoire"
+    "output": "/images/catalogue/69.jpg",
+    "product": "satin-ivoire",
+    "archive": "pyjamas.zip",
+    "sha256": "75835362452b45e8857a7dbf241e4c58d6f6c6ecdfec2cb4c74af93f176d0d03",
+    "processing": "original-unchanged"
   },
   {
     "index": 70,
     "original": "855693553_122211213050512998_7259759365777519219_n (1).jpg",
-    "output": "/images/catalogue/70.webp",
-    "product": "vert-satin"
+    "output": "/images/catalogue/70.jpg",
+    "product": "vert-satin",
+    "archive": "pyjamas.zip",
+    "sha256": "f46a9be92c93f6118f8854c8bf112ef3eddd12bd1680e1bd65e04487352876ed",
+    "processing": "original-unchanged"
   },
   {
     "index": 71,
     "original": "855759080_122211212960512998_3015730006065520900_n.jpg",
-    "output": "/images/catalogue/71.webp",
-    "product": "satin-noir"
+    "output": "/images/catalogue/71.jpg",
+    "product": "satin-noir",
+    "archive": "pyjamas.zip",
+    "sha256": "a1895b7ceef0857d52c22454c1f92c046c8e4b55deffbcea61d37006f42d655f",
+    "processing": "original-unchanged"
   },
   {
     "index": 72,
-    "original": "855759138_122211213836512998_909422381998956528_n (1).jpg",
-    "output": "/images/catalogue/72.webp",
-    "product": "coeurs-doux"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.28 (3).jpeg",
+    "output": "/images/catalogue/72.jpg",
+    "product": "coeurs-doux",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "de0b9e0b6a0f4c6f52c9f71f585d0ccbfa27d896c28ed6ecaa209d8aba20624c",
+    "processing": "original-unchanged"
   },
   {
     "index": 73,
-    "original": "855832786_122211213674512998_5461185345491518808_n (1).jpg",
-    "output": "/images/catalogue/73.webp",
-    "product": "rayures-corail"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.26 (4).jpeg",
+    "output": "/images/catalogue/73.jpg",
+    "product": "rayures-corail",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "ba2b6a37ccbeba830c0ade3338dafc619ea6bbe2d15fdf19c7aee6cdda94ff52",
+    "processing": "original-unchanged"
   },
   {
     "index": 74,
     "original": "855970006_122211212900512998_1862075175774436179_n (1).jpg",
-    "output": "/images/catalogue/74.webp",
-    "product": "ensemble-rouge"
+    "output": "/images/catalogue/74.jpg",
+    "product": "ensemble-rouge",
+    "archive": "pyjamas.zip",
+    "sha256": "81da282e3d47c919feb9e5926f9343000b1f96210abc35fe6c48e2ceab067319",
+    "processing": "original-unchanged"
   },
   {
     "index": 75,
     "original": "857192685_122211212750512998_3207873935225436007_n.jpg",
-    "output": "/images/catalogue/75.webp",
-    "product": "bordeaux"
+    "output": "/images/catalogue/75.jpg",
+    "product": "bordeaux",
+    "archive": "pyjamas.zip",
+    "sha256": "d908676b3b5cae02cf3bfda500579b73f5117c6579b0513ce511f12df270225a",
+    "processing": "original-unchanged"
   },
   {
     "index": 76,
-    "original": "857192689_122211212474512998_3408807781584947149_n (1).jpg",
-    "output": "/images/catalogue/76.webp",
-    "product": "peignoir-leopard"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.27 (2).jpeg",
+    "output": "/images/catalogue/76.jpg",
+    "product": "peignoir-leopard",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "5f3a8e34991c903d9ac98d95906b5593e81d6c4a22979203110a46a4770d4301",
+    "processing": "original-unchanged"
   },
   {
     "index": 77,
     "original": "857289857_122211212696512998_2857617379644304706_n.jpg",
-    "output": "/images/catalogue/77.webp",
-    "product": "vieux-rose"
+    "output": "/images/catalogue/77.jpg",
+    "product": "vieux-rose",
+    "archive": "pyjamas.zip",
+    "sha256": "fc092c1b9371955fc43a852b546cb6605e4ef1fb467647d1b22dcce0b36a496c",
+    "processing": "original-unchanged"
   },
   {
     "index": 78,
-    "original": "857369753_122211213626512998_8456575175864531554_n (1).jpg",
-    "output": "/images/catalogue/78.webp",
-    "product": "blanc-lumiere"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.25 (3).jpeg",
+    "output": "/images/catalogue/78.jpg",
+    "product": "blanc-lumiere",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "65f6f4261e71fb2ddec4424cc1d899ac0991a401fa76a01ce2b5147a9fda6121",
+    "processing": "original-unchanged"
   },
   {
     "index": 79,
-    "original": "857390513_122211212918512998_1161955381747732244_n (1).jpg",
-    "output": "/images/catalogue/79.webp",
-    "product": "taupe"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.26.jpeg",
+    "output": "/images/catalogue/79.jpg",
+    "product": "taupe",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "17e33619b5826675faf82ef3516f53d4b334cdeb50149a71a0e1341442ad59ab",
+    "processing": "original-unchanged"
   },
   {
     "index": 80,
-    "original": "858336176_122211213614512998_5096461709159771346_n (1).jpg",
-    "output": "/images/catalogue/80.webp",
-    "product": "champagne-rose"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.24.jpeg",
+    "output": "/images/catalogue/80.jpg",
+    "product": "champagne-rose",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "a8e45010f0f388dd7851f11b2660d86d2e3381763122d7e8ebc5aa9cef3fa439",
+    "processing": "original-unchanged"
   },
   {
     "index": 81,
     "original": "858357554_122211213470512998_4530963994029785432_n (1).jpg",
-    "output": "/images/catalogue/81.webp",
-    "product": "fuchsia"
+    "output": "/images/catalogue/81.jpg",
+    "product": "fuchsia",
+    "archive": "pyjamas.zip",
+    "sha256": "63e2884f8e0d499ae2029befbf602bd6cb33b4aeee05ab923a4e0fae2775f98a",
+    "processing": "original-unchanged"
   },
   {
     "index": 82,
-    "original": "858429935_122211212930512998_6234418990117330842_n (1).jpg",
-    "output": "/images/catalogue/82.webp",
-    "product": "rose-vif"
+    "original": "WhatsApp Image 2026-10-25 at 13.38.25.jpeg",
+    "output": "/images/catalogue/82.jpg",
+    "product": "rose-vif",
+    "archive": "WhatsApp Unknown 2026-10-25 at 13.40.44.zip",
+    "sha256": "03dbe11aba6c110e9b83c57a636a0107fff482697add3050e1207457c8804279",
+    "processing": "original-unchanged"
   }
 ]

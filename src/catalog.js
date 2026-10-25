@@ -7,8 +7,8 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/00.webp",
-      "/images/catalogue/14.webp"
+      "/images/catalogue/00.jpg",
+      "/images/catalogue/14.jpg"
     ],
     "sourceImages": [
       0,
@@ -25,8 +25,8 @@ export const products = [
     "category": "Satin",
     "price": 320,
     "images": [
-      "/images/catalogue/04.webp",
-      "/images/catalogue/11.webp"
+      "/images/catalogue/04.jpg",
+      "/images/catalogue/11.jpg"
     ],
     "sourceImages": [
       4,
@@ -43,7 +43,7 @@ export const products = [
     "category": "Fleuri",
     "price": 250,
     "images": [
-      "/images/catalogue/05.webp"
+      "/images/catalogue/05.jpg"
     ],
     "sourceImages": [
       5
@@ -59,7 +59,7 @@ export const products = [
     "category": "Imprimé",
     "price": 240,
     "images": [
-      "/images/catalogue/01.webp"
+      "/images/catalogue/01.jpg"
     ],
     "sourceImages": [
       1
@@ -75,8 +75,8 @@ export const products = [
     "category": "Fleuri",
     "price": 260,
     "images": [
-      "/images/catalogue/02.webp",
-      "/images/catalogue/10.webp"
+      "/images/catalogue/02.jpg",
+      "/images/catalogue/10.jpg"
     ],
     "sourceImages": [
       2,
@@ -93,7 +93,7 @@ export const products = [
     "category": "Satin",
     "price": 270,
     "images": [
-      "/images/catalogue/03.webp"
+      "/images/catalogue/03.jpg"
     ],
     "sourceImages": [
       3
@@ -109,7 +109,7 @@ export const products = [
     "category": "Imprimé",
     "price": 300,
     "images": [
-      "/images/catalogue/06.webp"
+      "/images/catalogue/06.jpg"
     ],
     "sourceImages": [
       6
@@ -125,7 +125,7 @@ export const products = [
     "category": "Fleuri",
     "price": 250,
     "images": [
-      "/images/catalogue/07.webp"
+      "/images/catalogue/07.jpg"
     ],
     "sourceImages": [
       7
@@ -141,7 +141,7 @@ export const products = [
     "category": "Satin",
     "price": 260,
     "images": [
-      "/images/catalogue/08.webp"
+      "/images/catalogue/08.jpg"
     ],
     "sourceImages": [
       8
@@ -157,8 +157,8 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/09.webp",
-      "/images/catalogue/13.webp"
+      "/images/catalogue/09.jpg",
+      "/images/catalogue/13.jpg"
     ],
     "sourceImages": [
       9,
@@ -175,7 +175,7 @@ export const products = [
     "category": "Satin",
     "price": 270,
     "images": [
-      "/images/catalogue/12.webp"
+      "/images/catalogue/12.jpg"
     ],
     "sourceImages": [
       12
@@ -191,7 +191,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/15.webp"
+      "/images/catalogue/15.jpg"
     ],
     "sourceImages": [
       15
@@ -207,7 +207,7 @@ export const products = [
     "category": "Imprimé",
     "price": 270,
     "images": [
-      "/images/catalogue/16.webp"
+      "/images/catalogue/16.jpg"
     ],
     "sourceImages": [
       16
@@ -223,7 +223,7 @@ export const products = [
     "category": "Satin",
     "price": 310,
     "images": [
-      "/images/catalogue/17.webp"
+      "/images/catalogue/17.jpg"
     ],
     "sourceImages": [
       17
@@ -239,8 +239,8 @@ export const products = [
     "category": "Satin",
     "price": 320,
     "images": [
-      "/images/catalogue/18.webp",
-      "/images/catalogue/80.webp"
+      "/images/catalogue/18.jpg",
+      "/images/catalogue/80.jpg"
     ],
     "sourceImages": [
       18,
@@ -257,8 +257,8 @@ export const products = [
     "category": "Rayé",
     "price": 280,
     "images": [
-      "/images/catalogue/20.webp",
-      "/images/catalogue/21.webp"
+      "/images/catalogue/20.jpg",
+      "/images/catalogue/21.jpg"
     ],
     "sourceImages": [
       20,
@@ -275,7 +275,7 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/22.webp"
+      "/images/catalogue/22.jpg"
     ],
     "sourceImages": [
       22
@@ -291,10 +291,10 @@ export const products = [
     "category": "Satin",
     "price": 310,
     "images": [
-      "/images/catalogue/23.webp",
-      "/images/catalogue/29.webp",
-      "/images/catalogue/43.webp",
-      "/images/catalogue/71.webp"
+      "/images/catalogue/23.jpg",
+      "/images/catalogue/29.jpg",
+      "/images/catalogue/43.jpg",
+      "/images/catalogue/71.jpg"
     ],
     "sourceImages": [
       23,
@@ -313,9 +313,9 @@ export const products = [
     "category": "Imprimé",
     "price": 300,
     "images": [
-      "/images/catalogue/24.webp",
-      "/images/catalogue/31.webp",
-      "/images/catalogue/69.webp"
+      "/images/catalogue/24.jpg",
+      "/images/catalogue/31.jpg",
+      "/images/catalogue/69.jpg"
     ],
     "sourceImages": [
       24,
@@ -333,7 +333,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/25.webp"
+      "/images/catalogue/25.jpg"
     ],
     "sourceImages": [
       25
@@ -349,7 +349,7 @@ export const products = [
     "category": "Fleuri",
     "price": 250,
     "images": [
-      "/images/catalogue/26.webp"
+      "/images/catalogue/26.jpg"
     ],
     "sourceImages": [
       26
@@ -365,8 +365,8 @@ export const products = [
     "category": "Satin",
     "price": 320,
     "images": [
-      "/images/catalogue/27.webp",
-      "/images/catalogue/75.webp"
+      "/images/catalogue/27.jpg",
+      "/images/catalogue/75.jpg"
     ],
     "sourceImages": [
       27,
@@ -383,9 +383,9 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/28.webp",
-      "/images/catalogue/67.webp",
-      "/images/catalogue/79.webp"
+      "/images/catalogue/28.jpg",
+      "/images/catalogue/67.jpg",
+      "/images/catalogue/79.jpg"
     ],
     "sourceImages": [
       28,
@@ -403,8 +403,8 @@ export const products = [
     "category": "Satin",
     "price": 300,
     "images": [
-      "/images/catalogue/30.webp",
-      "/images/catalogue/46.webp"
+      "/images/catalogue/30.jpg",
+      "/images/catalogue/46.jpg"
     ],
     "sourceImages": [
       30,
@@ -421,9 +421,9 @@ export const products = [
     "category": "Satin",
     "price": 310,
     "images": [
-      "/images/catalogue/32.webp",
-      "/images/catalogue/41.webp",
-      "/images/catalogue/50.webp"
+      "/images/catalogue/32.jpg",
+      "/images/catalogue/41.jpg",
+      "/images/catalogue/50.jpg"
     ],
     "sourceImages": [
       32,
@@ -441,7 +441,7 @@ export const products = [
     "category": "Imprimé",
     "price": 260,
     "images": [
-      "/images/catalogue/33.webp"
+      "/images/catalogue/33.jpg"
     ],
     "sourceImages": [
       33
@@ -457,9 +457,9 @@ export const products = [
     "category": "Satin",
     "price": 300,
     "images": [
-      "/images/catalogue/34.webp",
-      "/images/catalogue/38.webp",
-      "/images/catalogue/45.webp"
+      "/images/catalogue/34.jpg",
+      "/images/catalogue/38.jpg",
+      "/images/catalogue/45.jpg"
     ],
     "sourceImages": [
       34,
@@ -477,7 +477,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/35.webp"
+      "/images/catalogue/35.jpg"
     ],
     "sourceImages": [
       35
@@ -493,9 +493,9 @@ export const products = [
     "category": "Imprimé",
     "price": 350,
     "images": [
-      "/images/catalogue/36.webp",
-      "/images/catalogue/76.webp",
-      "/images/catalogue/19.webp"
+      "/images/catalogue/36.jpg",
+      "/images/catalogue/76.jpg",
+      "/images/catalogue/19.jpg"
     ],
     "sourceImages": [
       36,
@@ -513,8 +513,8 @@ export const products = [
     "category": "Satin",
     "price": 320,
     "images": [
-      "/images/catalogue/37.webp",
-      "/images/catalogue/53.webp"
+      "/images/catalogue/37.jpg",
+      "/images/catalogue/53.jpg"
     ],
     "sourceImages": [
       37,
@@ -531,7 +531,7 @@ export const products = [
     "category": "Fleuri",
     "price": 240,
     "images": [
-      "/images/catalogue/39.webp"
+      "/images/catalogue/39.jpg"
     ],
     "sourceImages": [
       39
@@ -547,8 +547,8 @@ export const products = [
     "category": "Satin",
     "price": 310,
     "images": [
-      "/images/catalogue/48.webp",
-      "/images/catalogue/40.webp"
+      "/images/catalogue/48.jpg",
+      "/images/catalogue/40.jpg"
     ],
     "sourceImages": [
       48,
@@ -565,8 +565,8 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/42.webp",
-      "/images/catalogue/70.webp"
+      "/images/catalogue/42.jpg",
+      "/images/catalogue/70.jpg"
     ],
     "sourceImages": [
       42,
@@ -583,7 +583,7 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/44.webp"
+      "/images/catalogue/44.jpg"
     ],
     "sourceImages": [
       44
@@ -599,8 +599,8 @@ export const products = [
     "category": "Satin",
     "price": 300,
     "images": [
-      "/images/catalogue/47.webp",
-      "/images/catalogue/63.webp"
+      "/images/catalogue/47.jpg",
+      "/images/catalogue/63.jpg"
     ],
     "sourceImages": [
       47,
@@ -617,7 +617,7 @@ export const products = [
     "category": "Satin",
     "price": 330,
     "images": [
-      "/images/catalogue/49.webp"
+      "/images/catalogue/49.jpg"
     ],
     "sourceImages": [
       49
@@ -633,7 +633,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/51.webp"
+      "/images/catalogue/51.jpg"
     ],
     "sourceImages": [
       51
@@ -649,7 +649,7 @@ export const products = [
     "category": "Satin",
     "price": 330,
     "images": [
-      "/images/catalogue/52.webp"
+      "/images/catalogue/52.jpg"
     ],
     "sourceImages": [
       52
@@ -665,7 +665,7 @@ export const products = [
     "category": "Imprimé",
     "price": 230,
     "images": [
-      "/images/catalogue/54.webp"
+      "/images/catalogue/54.jpg"
     ],
     "sourceImages": [
       54
@@ -681,7 +681,7 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/55.webp"
+      "/images/catalogue/55.jpg"
     ],
     "sourceImages": [
       55
@@ -697,7 +697,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/56.webp"
+      "/images/catalogue/56.jpg"
     ],
     "sourceImages": [
       56
@@ -713,7 +713,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/57.webp"
+      "/images/catalogue/57.jpg"
     ],
     "sourceImages": [
       57
@@ -729,8 +729,8 @@ export const products = [
     "category": "Imprimé",
     "price": 300,
     "images": [
-      "/images/catalogue/59.webp",
-      "/images/catalogue/62.webp"
+      "/images/catalogue/59.jpg",
+      "/images/catalogue/62.jpg"
     ],
     "sourceImages": [
       59,
@@ -747,7 +747,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/60.webp"
+      "/images/catalogue/60.jpg"
     ],
     "sourceImages": [
       60
@@ -763,7 +763,7 @@ export const products = [
     "category": "Satin",
     "price": 340,
     "images": [
-      "/images/catalogue/61.webp"
+      "/images/catalogue/61.jpg"
     ],
     "sourceImages": [
       61
@@ -779,8 +779,8 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/64.webp",
-      "/images/catalogue/65.webp"
+      "/images/catalogue/64.jpg",
+      "/images/catalogue/65.jpg"
     ],
     "sourceImages": [
       64,
@@ -797,7 +797,7 @@ export const products = [
     "category": "Fleuri",
     "price": 250,
     "images": [
-      "/images/catalogue/66.webp"
+      "/images/catalogue/66.jpg"
     ],
     "sourceImages": [
       66
@@ -813,7 +813,7 @@ export const products = [
     "category": "Satin",
     "price": 280,
     "images": [
-      "/images/catalogue/68.webp"
+      "/images/catalogue/68.jpg"
     ],
     "sourceImages": [
       68
@@ -829,8 +829,8 @@ export const products = [
     "category": "Imprimé",
     "price": 200,
     "images": [
-      "/images/catalogue/72.webp",
-      "/images/catalogue/58.webp"
+      "/images/catalogue/72.jpg",
+      "/images/catalogue/58.jpg"
     ],
     "sourceImages": [
       72,
@@ -847,7 +847,7 @@ export const products = [
     "category": "Rayé",
     "price": 260,
     "images": [
-      "/images/catalogue/73.webp"
+      "/images/catalogue/73.jpg"
     ],
     "sourceImages": [
       73
@@ -863,7 +863,7 @@ export const products = [
     "category": "Satin",
     "price": 350,
     "images": [
-      "/images/catalogue/74.webp"
+      "/images/catalogue/74.jpg"
     ],
     "sourceImages": [
       74
@@ -879,7 +879,7 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/77.webp"
+      "/images/catalogue/77.jpg"
     ],
     "sourceImages": [
       77
@@ -895,7 +895,7 @@ export const products = [
     "category": "Satin",
     "price": 320,
     "images": [
-      "/images/catalogue/78.webp"
+      "/images/catalogue/78.jpg"
     ],
     "sourceImages": [
       78
@@ -911,7 +911,7 @@ export const products = [
     "category": "Satin",
     "price": 290,
     "images": [
-      "/images/catalogue/81.webp"
+      "/images/catalogue/81.jpg"
     ],
     "sourceImages": [
       81
@@ -927,7 +927,7 @@ export const products = [
     "category": "Satin",
     "price": 310,
     "images": [
-      "/images/catalogue/82.webp"
+      "/images/catalogue/82.jpg"
     ],
     "sourceImages": [
       82

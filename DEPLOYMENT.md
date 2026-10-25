@@ -28,8 +28,8 @@ Les données sont dans Netlify Blobs. Les prix sont recalculés côté serveur. 
 
 ## Contenu et limites à valider
 
-- Catalogue : 55 fiches regroupant les 83 photos du ZIP. Les vues du même modèle sont réunies en galerie. `data/image-manifest.json` relie chaque photo source à son produit et à son fichier WebP. Aucune photo source ne manque et aucune n’est comptée deux fois. Les noms et prix ont été proposés dans la fourchette demandée de 200 à 350 DH ; ils sont à valider avec le propriétaire.
-- Les images publiées ont été retouchées/générées à partir des photos fournies. Les retouches demandées enlèvent les marques sur les vêtements et placent la marque Tazi hors du tissu. Vérifier les détails des images retouchées avec les articles réels avant la vente.
+- Catalogue : 55 fiches regroupant les 83 photos du ZIP. Les vues du même modèle sont réunies en galerie. `data/image-manifest.json` relie chaque photo source à son produit et à son fichier JPEG original. Aucune photo source ne manque et aucune n’est comptée deux fois. Les noms et prix ont été proposés dans la fourchette demandée de 200 à 350 DH ; ils sont à valider avec le propriétaire.
+- À la demande du propriétaire, les 83 photos produits sont désormais des fichiers JPEG originaux, copiés sans retouche, recadrage, recompression ni génération. Les marques VS et Victoria’s Secret présentes dans les photos sont conservées. 31 fichiers viennent du dernier ZIP « WhatsApp Unknown 2026-10-25 at 13.40.44.zip », les autres du ZIP « pyjamas.zip ». Les empreintes SHA-256 de `data/image-manifest.json` permettent de vérifier les fichiers publiés. Le logo Tazi est une couche d’affichage séparée ; il n’est pas incorporé aux vêtements ou aux fichiers originaux.
 - Logo fourni par le propriétaire : version nettoyée du monogramme VS présent sur le vêtement du personnage. Les lettres Tazi Pyjamas, les couleurs et la composition sont conservées. Le logo est affiché hors des vêtements des produits.
 - Tailles S à XL et disponibilité à confirmer avec le stock réel. Aucun stock physique synchronisé ni réservation automatique. Le dashboard gère les demandes et leurs statuts ; le catalogue se modifie dans `src/catalog.js`, pas depuis le dashboard pour cette version.
 - Paiement à la livraison. Frais et délais de livraison à confirmer au client. Aucun tarif de livraison inventé.
@@ -37,7 +37,7 @@ Les données sont dans Netlify Blobs. Les prix sont recalculés côté serveur. 
 
 ## Vérifications
 
-`npm test` : 8 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet, ainsi que la connexion et les sessions administrateur. `npm run build` : bundle production.
+`npm test` : 9 tests couvrent les contacts, quantités, tailles, prix, le recalcul des totaux, la couverture des 83 photos et les paniers du catalogue complet, ainsi que la connexion, les sessions administrateur et la conservation exacte des JPEG originaux. `npm run build` : bundle production.
 Test navigateur local : collection, filtre, choix taille, panier et persistance, WhatsApp, message d'erreur si backend absent, mobile, écran de connexion admin.
 Les variables serveur et Netlify Blobs nécessitent une vérification sur le site Netlify déployé.
 
