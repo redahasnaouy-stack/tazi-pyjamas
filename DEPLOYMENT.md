@@ -19,9 +19,9 @@ Les requêtes admin vérifient les jetons auprès de Netlify Identity et le rôl
 
 ## Contenu et limites à valider
 
-- Première capsule : 3 modèles (Lavande 290 DH, Rose 320 DH, Sauge 250 DH). Toutes les photos publiées portent TAZI ; les 83 originaux n'ont pas tous été intégrés. Les autres images du ZIP sont conservées hors des fichiers publics et nécessitent un traitement de marque avant publication.
-- Les images publiées ont été retouchées/générées à partir de 3 photos fournies. Valider la conformité des matières, coupes, couleurs et broderies aux produits réellement livrés avant la vente. La marque visible sur une image retouchée ne modifie pas le produit physique.
-- Identité typographique Tazi / couronne : aucun logo VS n'est publié. Le logo joint d'origine contient un monogramme VS et n'a donc pas été repris tel quel.
+- Première capsule : 3 modèles (Lavande 290 DH, Rose 320 DH, Sauge 250 DH). Les trois photos publiées sont sans marque sur les vêtements ; le logo Tazi Pyjamas est affiché séparément dans l’image ; les 83 originaux n'ont pas tous été intégrés. Les autres images du ZIP sont conservées hors des fichiers publics et nécessitent un traitement de marque avant publication.
+- Les images publiées ont été retouchées/générées à partir de 3 photos fournies. Les retouches demandées enlèvent les marques sur les vêtements et placent la marque Tazi hors du tissu. Vérifier les détails des images retouchées avec les articles réels avant la vente.
+- Logo fourni par le propriétaire : version nettoyée du monogramme VS présent sur le vêtement du personnage. Les lettres Tazi Pyjamas, les couleurs et la composition sont conservées. Le logo est affiché hors des vêtements des produits.
 - Tailles S à XL et disponibilité à confirmer avec le stock réel. Aucun stock physique synchronisé ni réservation automatique. Le dashboard gère les demandes et leurs statuts ; le catalogue se modifie dans `src/catalog.js`, pas depuis le dashboard pour cette version.
 - Paiement à la livraison. Frais et délais de livraison à confirmer au client. Aucun tarif de livraison inventé.
 - Pas encore de déploiement réel ni de validation du stockage et de l'authentification sur Netlify dans cette session. Le compte connecté dans le navigateur de l'utilisateur n'est pas exposé à l'agent.
